@@ -16,7 +16,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- //Meta-Tags -->
 
 	<!-- Style --> <link rel="stylesheet" href="static/css/style.css" type="text/css" media="all">
@@ -35,7 +37,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 		<div class="login w3layouts agileits">
 			<h2>µÇ Â¼</h2>
-			<form action="<%=basePath%>user/login" method="post">
+			<form action="<%=basePath%>user/login" method="post" accept-charset="UTF-8">
 				<input type="text" Name="username" placeholder="ÓÃ»§Ãû" required="">
 				<input type="password" Name="password" placeholder="ÃÜÂë" required="">
 				<ul class="tick w3layouts agileits">
@@ -69,13 +71,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</div>
 		<div class="register w3layouts agileits">
 			<h2>×¢ ²á</h2>
-			<form action="<%=basePath%>user/register" method="post">
+			<form action="<%=basePath%>user/register" method="post" accept-charset="UTF-8">
 				<input type="text" Name="username" placeholder="ÓÃ»§Ãû" required="">
-				<input type="text" Name="email" placeholder="ÓÊÏä" required="">
 				<input type="password" Name="password" placeholder="ÃÜÂë" required="">
-				<input type="text" Name="Phone Number" placeholder="ÊÖ»úºÅÂë" required="">
+				<input type="text" Name="netname" placeholder="êÇ³Æ" required="">
+				<input type="text" Name="sex" placeholder="ÐÔ±ð" required="">
 				<div class="send-button w3layouts agileits">
-					<input type="submit" value="Ãâ·Ñ×¢²á">
+					<input type="submit" value="×¢²á">
 				</div>
 			</form>
 			<div class="clear"></div>

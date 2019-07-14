@@ -57,6 +57,7 @@ public class UsersController {
         String msg2="";
         //根据登入账号判断该用户是否存在
         IUsers user = usersService.selectUserByLoginName(users.getUsername());
+        System.out.println(users.getUsername());
         if(user!=null){
             msg2="该用户已存在！";
         }else{

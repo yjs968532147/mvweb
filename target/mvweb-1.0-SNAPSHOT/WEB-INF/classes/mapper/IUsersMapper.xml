@@ -9,7 +9,7 @@
         select count(1) from users where username=#{username} and password=#{password}
     </select>
     <insert id="insertUser" parameterType="IUsers">
-        insert into users(username,password)VALUES(#{username},#{password})
+        insert into users(username,password,netname,sex)VALUES(#{username},#{password},#{netname},#{sex})
     </insert>
     <select id="selectUserByLoginName" parameterType="java.lang.String" resultType="IUsers">
         select * from users where username=#{username}
