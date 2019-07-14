@@ -38,7 +38,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 		<div class="login w3layouts agileits">
 			<h2>µÇ Â¼</h2>
-			<form action="<%=basePath%>user/login" method="post" accept-charset="UTF-8">
+			<form action="<%=basePath%>user/checklogin" method="post" accept-charset="UTF-8">
 				<input type="text" Name="username" placeholder="ÓÃ»§Ãû" required="">
 				<input type="password" Name="password" placeholder="ÃÜÂë" required="">
 				<ul class="tick w3layouts agileits">
