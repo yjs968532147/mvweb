@@ -8,8 +8,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import javax.servlet.http.HttpServletRequest;
-
 /**
  * @Author: Administrator
  * @Date: Created in 11:29 2019/1/17
@@ -22,17 +20,6 @@ public class UsersController {
     @Autowired
     private IUsersService usersService;
 
-
-    /*@RequestMapping("/login")
-    public String login(HttpServletRequest request,IUsers users){
-        boolean dron=usersService.selectOne(users);
-        if (dron){
-            request.setAttribute("ulist",usersService.selectAll());
-            return "index";
-        }
-        request.setAttribute("error","账号或密码错误");
-        return "/login";
-    }*/
     @RequestMapping("/login")
     public String login(IUsers users, Model model){
         String msg="";
