@@ -1,3 +1,9 @@
+<%
+	/*获取工程路径*/
+	String path = request.getContextPath();
+	String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+<base href="<%=basePath%>">
 <!DOCTYPE HTML>
 <html>
 <head>

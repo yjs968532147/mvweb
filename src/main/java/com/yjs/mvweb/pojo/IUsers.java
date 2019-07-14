@@ -9,7 +9,8 @@ public class IUsers {
     private int id;
     private String username;
     private String password;
-
+    private String netname;
+    private String sex;
     @Override
     public String toString() {
         return "IUsers{" +
@@ -41,5 +42,21 @@ public class IUsers {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getNetname() {
+        return netname;
+    }
+
+    public void setNetname(String netname) {
+        this.netname = netname;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
     }
 }

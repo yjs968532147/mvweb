@@ -4,6 +4,7 @@
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
+<base href="<%=basePath%>">
 <!DOCTYPE html>
 <html>
 
@@ -21,7 +22,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- //Meta-Tags -->
 
-	<!-- Style --> <link rel="stylesheet" href="css/style1.css" type="text/css" media="all">
+	<!-- Style --> <link href="css/style1.css" rel="stylesheet">
 
 
 
