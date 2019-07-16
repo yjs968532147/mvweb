@@ -11,7 +11,6 @@ import org.springframework.web.multipart.commons.CommonsMultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.util.Date;
 
@@ -143,5 +142,22 @@ public class VideoController {
             mvService.insertMv(mv);
         }
         return null;
+    }
+    @RequestMapping("/test")
+    public ModelAndView testUser(){
+        ModelAndView model = new ModelAndView();
+        model.setViewName("videoView");
+        Mv mv = new Mv();
+        mv.setUploadname("命运之夜");
+        mv.setUploadid(28);
+        model.addObject("mv",mv);
+        return model;
+
+    }
+    @RequestMapping("/find")
+    public String findMv(){
+        Mv mv=mvService.getResourceById(2);
+        System.out.println("name:"+mv.getUploadname());
+        return "/index";
     }
 }

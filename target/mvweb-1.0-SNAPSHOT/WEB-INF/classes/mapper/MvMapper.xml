@@ -5,4 +5,7 @@
     <insert id="insertMv" parameterType="Mv">
         insert into mvupload(uploadname,uploadsrc)values(#{uploadname},#{uploadsrc})
     </insert>
+    <select id="getResourceById" parameterType="java.lang.Integer" resultType="Mv">
+        select * from mvupload where uploadid=#{uploadid}
+    </select>
 </mapper>

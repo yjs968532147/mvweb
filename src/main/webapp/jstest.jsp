@@ -14,7 +14,9 @@
         function choosePic() {
             var myPix = new Array("images/c1.jpg","images/c2.jpg","images/c3.jpg");
             var randomNum = Math.floor((Math.random() * myPix.length));
+            var randomNum1 = Math.floor((Math.random() * myPix.length));
             document.getElementById("myPicture").src = myPix[randomNum];
+            document.getElementById("myPicture1").src = myPix[randomNum1];
         }
     </script>
 </head>
@@ -22,8 +24,7 @@
 
 <h1>我的第一个 JavaScript 程序</h1>
 <p id="demo">这是一张图片</p>
-<img id="myPicture" src="images/c1.jpg" alt="随机图片">
-<button type="button" onclick="choosePic()">显示图片</button>
-
+<img id="myPicture" src="" alt="随机图片">
+<img id="myPicture1" src="" alt="随机图片">
 </body>
 </html>
