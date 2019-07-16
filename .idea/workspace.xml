@@ -7,63 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e9aac0a-807d-43d0-953d-c65e13b31b13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yjs/mvweb/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yjs/mvweb/controller/VideoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yjs/mvweb/mapper/MvMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yjs/mvweb/pojo/Mv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yjs/mvweb/service/MvService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yjs/mvweb/service/impl/MvServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yjs/mvweb/videotool/Contants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yjs/mvweb/videotool/ConverVideoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yjs/mvweb/videotool/ConverVideoUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/MvMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/videoshow.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jstest.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploadtest.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/IUsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/IUsersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/copyright.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/copyright.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/creators.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/creators.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/developers.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/developers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/movies.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/movies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/press.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/press.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/privacy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/shows.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/shows.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/single.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sports.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/sports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/terms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/try.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/try.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/upload.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/properties/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/properties/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/WEB-INF/classes/properties/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/WEB-INF/classes/properties/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/copyright.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/copyright.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/creators.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/creators.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/developers.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/developers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/movies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/movies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/press.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/press.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/privacy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/shows.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/shows.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/sports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/sports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/terms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/try.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/try.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvweb-1.0-SNAPSHOT/upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yjs/mvweb/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yjs/mvweb/controller/MainController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yjs/mvweb/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="25">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#518#519#0" expanded="true" />
@@ -165,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yjs/mvweb/pojo/Mv.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="175">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#197#198#0" expanded="true" />
                 <element signature="e#228#229#0" expanded="true" />
@@ -267,7 +211,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yjs/mvweb/controller/VideoController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yjs/mvweb/pojo/Mv.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yjs/mvweb/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/test.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jstest.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
@@ -278,6 +221,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yjs/mvweb/service/impl/MvServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/MvMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/IUsersMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yjs/mvweb/controller/MainController.java" />
       </list>
     </option>
   </component>
@@ -632,7 +576,7 @@
       <workItem from="1563170257475" duration="19022000" />
       <workItem from="1563202162245" duration="2224000" />
       <workItem from="1563238976154" duration="10576000" />
-      <workItem from="1563255176596" duration="2066000" />
+      <workItem from="1563255176596" duration="2364000" />
     </task>
     <task id="LOCAL-00001" summary="实现登录注册功能">
       <created>1563086749347</created>
@@ -676,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563102792782</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ver2.4">
+      <created>1563258271890</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563258271891</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64365000" />
+    <option name="totallyTimeSpent" value="64663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -732,7 +683,8 @@
     <MESSAGE value="实现登录注册功能v2.0" />
     <MESSAGE value="ver2.2" />
     <MESSAGE value="ver2.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver2.3" />
+    <MESSAGE value="ver2.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver2.4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/style.css" />
@@ -985,18 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yjs/mvweb/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MvMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1041,13 +981,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yjs/mvweb/pojo/Mv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#197#198#0" expanded="true" />
             <element signature="e#228#229#0" expanded="true" />
             <element signature="e#273#274#0" expanded="true" />
             <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yjs/mvweb/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
           </folding>
         </state>
       </provider>
