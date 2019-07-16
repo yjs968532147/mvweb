@@ -11,7 +11,7 @@
     <insert id="insertUser" parameterType="IUsers">
         insert into users(username,password,netname,sex)VALUES(#{username},#{password},#{netname},#{sex})
     </insert>
-    <select id="selectUserByLoginName" parameterType="java.lang.String" resultType="IUsers">
-        select * from users where username=#{username}
+    <select id="getResourceById" parameterType="java.lang.String" resultType="Mv">
+        select * from mvupload where uploadid=#{uploadid}
     </select>
 </mapper>
